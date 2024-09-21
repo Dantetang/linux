@@ -527,6 +527,7 @@ extern struct page *mem_map;
  *
  * Memory statistics and page replacement data structures are maintained on a
  * per-zone basis.
+ * 每个内存区域单位
  */
 struct bootmem_data;
 typedef struct pglist_data {
